@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 echo "📦 Creating full backup of ShopDB..."
 mysqldump -u "$DB_USER" -p"$DB_PASSWORD" --databases ShopDB > ShopDB_full.sql
 
